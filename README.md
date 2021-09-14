@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="gambar/logo.jpg" alt="Logo" height="400">
+    <img src="gambar/logo.jpg" alt="Logo" height="300">
   </a>
 
   <h3 align="center">Website Pembelian Tiket Pesawat</h3>
@@ -36,7 +36,7 @@
 <!-- Fungsi -->
 ## Fungsi
 
-TO;DO
+Website ini memiliki fungsi untuk mencatat data-data yang diperlukan dalam dunia penerbangan seperti data penumpang, maskapai, dan rute penerbangan. Aplikasi ini akan sangat berguna baik bagi pihak maskapai maupun pihak penumpang.
 
 <!-- Tujuan -->
 ## Tujuan
