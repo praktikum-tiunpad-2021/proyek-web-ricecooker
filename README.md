@@ -59,4 +59,4 @@ Gambar mockup di sini atau [link figma](https://figma.com/).
 ## Skema Database
 
 Skema Database
-<img src="gambar/skema database.png" alt="skema database">
+![] (gambar/skema_database.png)
