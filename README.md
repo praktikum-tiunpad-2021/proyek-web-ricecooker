@@ -59,4 +59,9 @@ Gambar mockup di sini atau [link figma](https://figma.com/).
 ## Skema Database
 
 Skema Database
+
 ![](gambar/skema_database.png)
+
+ERD Database
+
+![](gambar/erd)
