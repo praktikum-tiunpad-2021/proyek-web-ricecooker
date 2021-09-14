@@ -51,9 +51,17 @@ Target pengguna dari website ini adalah pelanggan seseorang yang ingin membeli t
 <!-- Mockup Kasar -->
 ## Mockup Kasar
 
-TO;DO
+Gambar Mockup Kasar Menu Login
+<img src="gambar/mockup_menulogin.jpg" alt="mockup-login">
 
-Gambar mockup di sini atau [link figma](https://figma.com/).
+Gambar Mockup Kasar Menu Pesan
+<img src="gambar/mockup_menupesan.jpg" alt="mockup-pesan">
+
+Gambar Mockup Kasar Menu Edit
+<img src="gambar/mockup_menuedit.jpg" alt="mockup-edit">
+
+Gambar Mockup Kasar Menu Data
+<img src="gambar/mockup_menudata.jpg" alt="mockup-data">
 
 <!-- Skema Database -->
 ## Skema Database
