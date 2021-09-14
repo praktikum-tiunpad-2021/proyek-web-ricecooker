@@ -27,11 +27,11 @@
 
 <!-- Anggota Tim -->
 ## Anggota Tim
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Janie Doe   |
+| NPM           | Name                      |
+| ------------- |---------------------------|
+| 140810200019  | Muhammad Zidan Khairan    |
+| 140810200027  | Harta Rama                |
+| 140810200037  | Azka Ghafara Putra Agung  |
 
 <!-- Fungsi -->
 ## Fungsi
