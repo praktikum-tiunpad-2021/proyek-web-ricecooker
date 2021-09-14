@@ -41,12 +41,12 @@ TO;DO
 <!-- Tujuan -->
 ## Tujuan
 
-TO;DO
+Tujuan dan manfaat dari pembuatan website ini yaitu untuk memahami mengenai implementasi dari penggunaan bahasa html, css, javascript, dan php dalam kehidupan sehari-hari. Tidak hanya itu hal ini juga memiliki tujuan dan manfaat sebagai latihan dalam membuat website melalui proses eksplorasi.
 
 <!-- Target Pengguna -->
 ## Target Pengguna
 
-TO;DO
+Target pengguna dari website ini adalah pelanggan pesawat yang ingin memasukkan data penumpang mereka
 
 <!-- Mockup Kasar -->
 ## Mockup Kasar
@@ -58,4 +58,5 @@ Gambar mockup di sini atau [link figma](https://figma.com/).
 <!-- Skema Database -->
 ## Skema Database
 
-TO;DO
+Skema Database
+<img src="gambar/skema database.png" alt="skema database">
