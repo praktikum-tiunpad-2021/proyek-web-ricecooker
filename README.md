@@ -60,8 +60,8 @@ Gambar mockup di sini atau [link figma](https://figma.com/).
 
 Skema Database
 
-<img src="gambar/skema_database.png" alt="skema" height="1000">
+<img src="gambar/skema_database.png" alt="skema" weight="750">
 
 ERD Database
 
-![](gambar/erd.png)
+<img src="gambar/erd.png" alt="erd" weight="750">
