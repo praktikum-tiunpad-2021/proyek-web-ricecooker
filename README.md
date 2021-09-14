@@ -51,8 +51,8 @@ Target pengguna dari website ini adalah pelanggan seseorang yang ingin membeli t
 <!-- Mockup Kasar -->
 ## Mockup Kasar
 
-Gambar Mockup Kasar Menu Login
-<img src="gambar/mockup_menulogin.jpg" alt="mockup-login">
+<p align="center">Gambar Mockup Kasar Menu Login</p><br>
+<img src="gambar/mockup_menulogin.jpg" alt="mockup-login" height="400">
 
 Gambar Mockup Kasar Menu Pesan
 <img src="gambar/mockup_menupesan.jpg" alt="mockup-pesan">
