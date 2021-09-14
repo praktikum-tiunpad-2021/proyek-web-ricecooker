@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="gambar/logo.jpg" alt="Logo" height="200">
+    <img src="gambar/logo.jpg" alt="Logo" height="400">
   </a>
 
   <h3 align="center">Website Pembelian Tiket Pesawat</h3>
@@ -60,7 +60,7 @@ Gambar mockup di sini atau [link figma](https://figma.com/).
 
 Skema Database
 
-![](gambar/skema_database.png)
+<img src="gambar/skema_database.png" alt="skema" height="1000">
 
 ERD Database
 
