@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="gambar/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="gambar/logo.jpg" alt="Logo" height="200">
   </a>
 
   <h3 align="center">Website Pembelian Tiket Pesawat</h3>
