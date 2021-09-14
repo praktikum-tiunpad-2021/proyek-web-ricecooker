@@ -2,13 +2,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://via.placeholder.com/80/FFFFFF/808080?text=Logo" alt="Logo" width="80" height="80">
+    <img src="/gambar/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Judul Proyek</h3>
+  <h3 align="center">Website Pembelian Tiket Pesawat</h3>
 
   <p align="center">
-    Deskripsi Proyek
+    Website ini adalah wesbite sederhana yang coba menyimulasikan bagaimana proses pemesanan tiket pesawat. Aplikasi ini memiliki database yang terdiri atas empat buah table. Tiga table berfungsi untuk menyimpan informasi yang diperlukan dalam pembuatan tiket yaitu informasi maskapai, rute penerbangan, dan penumpang. Dan satu tabel digunakan untuk membuat informasi pemesanan tiket penerbangan.
   </p>
 </p>
 
@@ -46,7 +46,7 @@ Tujuan dan manfaat dari pembuatan website ini yaitu untuk memahami mengenai impl
 <!-- Target Pengguna -->
 ## Target Pengguna
 
-Target pengguna dari website ini adalah pelanggan pesawat yang ingin memasukkan data penumpang mereka
+Target pengguna dari website ini adalah pelanggan seseorang yang ingin membeli tiket pesawat
 
 <!-- Mockup Kasar -->
 ## Mockup Kasar
