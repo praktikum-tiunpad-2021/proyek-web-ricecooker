@@ -64,4 +64,4 @@ Skema Database
 
 ERD Database
 
-![](gambar/erd)
+![](gambar/erd.png)
