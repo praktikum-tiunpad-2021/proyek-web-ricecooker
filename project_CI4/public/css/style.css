@@ -1,0 +1,28 @@
+.table {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table>thead {
+    vertical-align: middle;
+}
+
+.col>h1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.peringatan {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+.formisi {
+    text-align: center;
+}
