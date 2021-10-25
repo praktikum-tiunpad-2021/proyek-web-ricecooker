@@ -6,17 +6,18 @@
         <div class="col">
 
             <h1>Ubah Tiket Pesawat</h1>
-            <form action="" method="POST">
-                <input type="hidden" name="nomor_tiket" value="<? $penumpang["nomor_tiket"]; ?>">
 
-                <table border="1" cellspacing="0" cellpadding="10" align="center">
+            <form action="/pages/ubah_data2" method="POST" class="formisi">
+                <input type="hidden" name="nomor_id" value=<?= $penumpang['nomor_id']; ?>>
+
+                <table border="1" cellspacing="0" cellpadding="10" align="center" class="table table-bordered">
                     <tr>
                         <td><label for="nomorid">Ubah Nomor ID </label>
                             <br>
                             (Nomor ID tidak dapat diubah kembali)
                         </td>
                         <td>
-                            <?= $penumpang[$nomor_id]; ?>
+                            <?= $penumpang["nomor_id"]; ?>
                         </td>
                     </tr>
                     <tr>
@@ -145,9 +146,10 @@
                 </table>
                 <hr>
                 <button type="submit" name="submit" onclick="return confirm('Apakah Anda yakin ingin mengubah data?')
-        ">Ubah Data</button> |
-                <button type="reset" name="reset"><a href="daftar_tiket">Cancel</a></button>
+        " class="btn btn-outline-success">Ubah Data</button> |
+                <a href="/pages/daftar_tiket" class="btn btn-outline-danger">Cancel</a>
             </form>
         </div>
     </div>
 </div>
+<?= $this->endSection(); ?>

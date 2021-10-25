@@ -100,18 +100,18 @@ class Pages extends BaseController
     public function ubah_data($data)
     {
         $tiket = $this->tampilkan_data->ubah_tiket($data);
-        $data = [
+        $dataPenumpang = [
             'title' => 'Ubah Tiket',
             'penumpang' => $tiket
         ];
-        return view('page/ubah_data', $data);
+        return view('page/ubah_data', $dataPenumpang);
     }
 
     public function ubah_data2()
     {
-        $nomor_id = $this->request->getPost('nomor_id');
+        $id = $this->request->getPost('nomor_id');
+
         $data = array(
-            'nomor_id' => $this->request->getPost('nomor_id'),
             'nama_penumpang' => $this->request->getPost('nama_penumpang'),
             'jk' => $this->request->getPost('jk'),
             'alamat' => $this->request->getPost('alamat'),
@@ -120,15 +120,14 @@ class Pages extends BaseController
         );
 
         $data2 = array(
-            'nomor_id' => $this->request->getPost('nomor_id'),
             'kode_maskapai' => $this->request->getPost('kode_maskapai'),
             'nomor_kursi' => $this->request->getPost('nomor_kursi'),
             'jamterbang' => $this->request->getPost('jamterbang'),
             'nomor_rute' => $this->request->getPost('nomor_rute')
         );
 
-        $this->tampilkan_data->ubah_tiket2($data, $nomor_id);
-        $this->tampilkan_data->ubah_tiket3($data2, $nomor_id);
+        $this->tampilkan_data->ubah_tiket2($data, $id);
+        $this->tampilkan_data->ubah_tiket3($data2, $id);
 
         return redirect()->to('pages/daftar_tiket');
     }
