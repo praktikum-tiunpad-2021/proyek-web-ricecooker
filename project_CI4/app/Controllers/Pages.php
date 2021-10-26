@@ -31,8 +31,6 @@ class Pages extends BaseController
 
     public function contact()
     {
-
-
         $data = [
             'title' => 'Contact Me',
 
@@ -45,7 +43,6 @@ class Pages extends BaseController
 
     public function daftar_tiket()
     {
-
         $tiket = $this->tampilkan_data->tampilkan_tiket();
 
         $data = [

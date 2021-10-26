@@ -30,7 +30,6 @@ class tiketModel extends Model
 
     function hapus_tiket($data)
     {
-
         $this->db->table('tiket')
             ->delete(array('nomor_id' => $data));
 
@@ -56,7 +55,6 @@ class tiketModel extends Model
 
     public function ubah_tiket3($data, $id)
     {
-
         $this->db->table('tiket')->where('nomor_id', $id)->update($data);
     }
 }
