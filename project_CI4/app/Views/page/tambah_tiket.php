@@ -135,8 +135,8 @@
                 </p>
                 <hr>
                 <button type="submit" name="submit" onclick=" return confirm('Yakin data yang dimasukkan sudah benar?')"
-                id="submitbtn">Submit</button> |
-                <a href="tambah_tiket" id="cancelbtn">Cancel</a>
+                id="ijoputihbtn">Submit</button> |
+                <a href="tambah_tiket" id="ijomerahbtn">Cancel</a>
             </form>
         </div>
     </div>

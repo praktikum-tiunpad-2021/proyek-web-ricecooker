@@ -129,7 +129,7 @@ h1 {
     outline: rgb(197, 132, 132) solid 3px;
 }
 
-#cancelbtn {
+#merahputihbtn {
     background-color: white;
     border: 1px solid rgb(197, 73, 73);
     color: red;
@@ -140,7 +140,7 @@ h1 {
     transition-duration: 0.3s;
 }
 
-#cancelbtn:hover {
+#merahputihbtn:hover {
     background-color: rgb(197, 73, 73);
     border: 1px solid rgb(197, 73, 73);
     color: white;
@@ -150,7 +150,7 @@ h1 {
     text-decoration: none;
 }
 
-#cancelbtn:focus {
+#merahputihbtn:focus {
     background-color: rgb(197, 73, 73);
     border: 1px solid rgb(197, 73, 73);
     color: white;
@@ -161,7 +161,7 @@ h1 {
     outline: rgb(197, 132, 132) solid 3px;
 }
 
-#submitbtn {
+#ijoputihbtn {
     background-color: white;
     border: 1px solid rgb(76, 141, 70);
     color: rgb(76, 141, 70);
@@ -175,7 +175,7 @@ h1 {
     transition-duration: 0.3s;
 }
 
-#submitbtn:hover {
+#ijoputihbtn:hover {
     background-color: rgb(76, 141, 70);
     border: 1px solid rgb(76, 141, 70);
     color: white;
@@ -188,7 +188,7 @@ h1 {
     text-decoration: none;
 }
 
-#submitbtn:focus {
+#ijoputihbtn:focus {
     background-color: rgb(76, 141, 70);
     border: 1px solid rgb(76, 141, 70);
     color: white;
