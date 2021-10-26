@@ -7,7 +7,7 @@
             <table>
                 <tr>
                     <td>
-                        <a id="pesanbtn" href="/pages/tambah_tiket">Pesan Tiket</a>
+                        <a id="pesanbtn" href="/tambah_tiket">Pesan Tiket</a>
                     </td>
                 </tr>
             </table>

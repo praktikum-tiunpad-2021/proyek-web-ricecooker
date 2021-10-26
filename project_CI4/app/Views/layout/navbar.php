@@ -8,10 +8,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link" href="/pages/about">About</a>
-                    <a class="nav-link" href="/pages/contact">Contact</a>
-                    <a class="nav-link" href="/pages/daftar_tiket">Daftar Tiket</a>
-                    <a class="nav-link" href="/pages/tambah_tiket">Tambah Tiket</a>
+                    <a class="nav-link" href="/about">About</a>
+                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="/daftar_tiket">Daftar Tiket</a>
+                    <a class="nav-link" href="/tambah_tiket">Tambah Tiket</a>
                 </div>
             </div>
         </div>
