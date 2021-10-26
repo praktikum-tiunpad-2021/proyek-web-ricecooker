@@ -146,8 +146,8 @@
                 </table>
                 <hr>
                 <button type="submit" name="submit" onclick="return confirm('Apakah Anda yakin ingin mengubah data?')"
-                id="ijoputihbtn">Ubah Data</button> |
-                <a href="/pages/daftar_tiket" id="merahputihbtn">Cancel</a>
+                id="hpbtn">Ubah Data</button> |
+                <a href="/pages/daftar_tiket" id="mpbtn">Cancel</a>
             </form>
         </div>
     </div>
