@@ -7,7 +7,7 @@
             <table>
                 <tr>
                     <td>
-                        <a class="btn btn-primary" role="button" href="/pages/tambah_tiket">Pesan Tiket</a>
+                        <a id="pesanbtn" href="/pages/tambah_tiket">Pesan Tiket</a>
                     </td>
                 </tr>
             </table>
@@ -37,11 +37,11 @@
                     <?php foreach ($tiket as $row) :  ?>
                         <tr>
                             <td>
-                                <a href="/pages/ubah_data/<?= $row['nomor_tiket']; ?>" class="btn btn-success">Ubah Data</a>
+                                <a href="/pages/ubah_data/<?= $row['nomor_tiket']; ?>" id="ubahbtn">Ubah Data</a>
                                 <br>
                                 <br>
                                 <a href="/pages/hapus_tiket/<?= $row['nomor_id']; ?>" onclick="return confirm(
-                        'Apakah Anda yakin ingin menghapus data ini?')" class="btn btn-danger">Hapus Data</a>
+                        'Apakah Anda yakin ingin menghapus data ini?')" id="hapusbtn">Hapus Data</a>
                             </td>
                             <td width="2"><?php echo $row["nomor_tiket"]; ?></td>
                             <td width="2"><?php echo $row["nomor_kursi"]; ?></td>

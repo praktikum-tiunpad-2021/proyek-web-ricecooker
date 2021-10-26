@@ -134,9 +134,9 @@
                     Harap memasukkan Nomor ID dengan teliti. Dikarenakan Nomor ID tidak dapat diubah jika terdapat kesalahan
                 </p>
                 <hr>
-                <button type="submit" name="submit" onclick=" return confirm('Yakin data yang dimasukkan sudah benar?')
-        " class="btn btn-outline-success">Submit</button> |
-                <a href="tambah_tiket" class="btn btn-outline-danger">Cancel</a>
+                <button type="submit" name="submit" onclick=" return confirm('Yakin data yang dimasukkan sudah benar?')"
+                id="submitbtn">Submit</button> |
+                <a href="tambah_tiket" id="cancelbtn">Cancel</a>
             </form>
         </div>
     </div>
