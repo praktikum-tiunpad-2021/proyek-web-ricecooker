@@ -17,7 +17,7 @@ class Pages extends BaseController
             'title' => 'Home'
         ];
 
-        echo view('page/home', $data);
+        return view('page/home', $data);
     }
 
     public function about()

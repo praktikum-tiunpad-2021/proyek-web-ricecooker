@@ -132,8 +132,8 @@
                                     <option value="622" <?= ($penumpang["nomor_rute"] == '622') ? "selected" : "" ?>>Bandung - Tangerang</option>
                                 </optgroup>
                                 <optgroup label="Bandar Lampung">
-                                    <option value="623" <?= ($penumpang["nomor_rute"] == '623') ? "selected" : "" ?>>Bandar Lampung - Bandung</option>
-                                    <option value="624" <?= ($penumpang["nomor_rute"] == '624') ? "selected" : "" ?>>Bandar Lampung - Tangerang</option>
+                                    <option value="623" <?= ($penumpang["nomor_rute"] == '623') ? "selected" : "" ?>>Bandar Lampung - Tangerang</option>
+                                    <option value="624" <?= ($penumpang["nomor_rute"] == '624') ? "selected" : "" ?>>Bandar Lampung - Bandung</option>
                                 </optgroup>
                                 <optgroup label="Tangerang">
                                     <option value="625" <?= ($penumpang["nomor_rute"] == '625') ? "selected" : "" ?>>Tangerang - Bandung</option>
@@ -145,8 +145,7 @@
                     </tr>
                 </table>
                 <hr>
-                <button type="submit" name="submit" onclick="return confirm('Apakah Anda yakin ingin mengubah data?')"
-                id="hpbtn">Ubah Data</button> |
+                <button type="submit" name="submit" onclick="return confirm('Apakah Anda yakin ingin mengubah data?')" id="hpbtn">Ubah Data</button> |
                 <a href="/daftar_tiket" id="mpbtn">Cancel</a>
             </form>
         </div>
