@@ -10,7 +10,7 @@
             <form action="/pages/ubah_data2" method="POST" class="formisi">
                 <input type="hidden" name="nomor_id" value=<?= $penumpang['nomor_id']; ?>>
 
-                <table border="1" cellspacing="0" cellpadding="10" align="center" class="table table-bordered">
+                <table class="table2">
                     <tr>
                         <td><label for="nomorid">Ubah Nomor ID </label>
                             <br>

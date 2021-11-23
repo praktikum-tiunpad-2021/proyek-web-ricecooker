@@ -12,7 +12,7 @@
                 </tr>
             </table>
             <br>
-            <table border="1" cellspacing="0" cellpadding="8" class="table table-bordered">
+            <table class="table1">
                 <thead>
                     <tr>
                         <th>Aksi</th>

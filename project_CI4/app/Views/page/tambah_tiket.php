@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col">
             <form action="/pages/save" method="POST" class="formisi">
-                <table border="1" cellspacing="0" cellpadding="10" align="center" class="table table-bordered">
+                <table class="table2">
                     <tr>
                         <td><label for="nomorid">Nomor ID</label></td>
                         <td><input type="text" id="nomorid" name="nomor_id" required></td>

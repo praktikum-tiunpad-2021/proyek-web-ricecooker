@@ -12,7 +12,7 @@
                     <a class="nav-link" href="/contact">Contact</a>
                     <a class="nav-link" href="/daftar_tiket">Daftar Tiket</a>
                     <a class="nav-link" href="/tambah_tiket">Tambah Tiket</a>
-                    <a href="/logout" class="btn btn-success">Logout</a>
+                    <a href="/logout" id="hapusbtn">Logout</a>
                 </div>
             </div>
         </div>

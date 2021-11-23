@@ -1,10 +1,22 @@
-.table {
+.table1>thead>tr>th, .table1>tbody>tr>td {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse;
+    padding: 8px;
     vertical-align: middle;
     text-align: center;
 }
 
-.table>thead {
+.table2 {
+    width: 100%;
+}
+
+.table2>tbody>tr>td {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 0px;
     vertical-align: middle;
+    text-align: center;
 }
 
 .col>h1 {
