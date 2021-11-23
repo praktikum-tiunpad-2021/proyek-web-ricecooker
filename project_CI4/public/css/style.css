@@ -1,0 +1,203 @@
+.table {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table>thead {
+    vertical-align: middle;
+}
+
+.col>h1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.peringatan {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+.formisi {
+    text-align: center;
+}
+
+#pesanbtn {
+    background-color: #327be9;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 9px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition-duration: 0.15s;
+}
+
+#pesanbtn:hover {
+    background-color: #2865c0;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 9px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#pesanbtn:focus {
+    background-color: #2865c0;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 9px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    outline: #6d99db solid 3px;
+}
+
+#ubahbtn {
+    background-color: rgb(76, 141, 70);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.15s;
+}
+
+#ubahbtn:hover {
+    background-color: rgb(65, 121, 60);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#ubahbtn:focus {
+    background-color: rgb(65, 121, 60);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    outline: rgb(131, 155, 130) solid 3px;
+}
+
+#hapusbtn {
+    background-color: rgb(197, 73, 73);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.15s;
+}
+
+#hapusbtn:hover {
+    background-color: rgb(160, 60, 60);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#hapusbtn:focus {
+    background-color: rgb(160, 60, 60);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    outline: rgb(197, 132, 132) solid 3px;
+}
+
+#mpbtn {
+    background-color: white;
+    border: 1px solid rgb(197, 73, 73);
+    color: red;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+#mpbtn:hover {
+    background-color: rgb(197, 73, 73);
+    border: 1px solid rgb(197, 73, 73);
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#mpbtn:focus {
+    background-color: rgb(197, 73, 73);
+    border: 1px solid rgb(197, 73, 73);
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    outline: rgb(197, 132, 132) solid 3px;
+}
+
+#hpbtn {
+    background-color: white;
+    border: 1px solid rgb(76, 141, 70);
+    color: rgb(76, 141, 70);
+    text-align: center;
+    padding-top: 5.7px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+#hpbtn:hover {
+    background-color: rgb(76, 141, 70);
+    border: 1px solid rgb(76, 141, 70);
+    color: white;
+    text-align: center;
+    padding-top: 5.7px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#hpbtn:focus {
+    background-color: rgb(76, 141, 70);
+    border: 1px solid rgb(76, 141, 70);
+    color: white;
+    text-align: center;
+    padding-top: 5.7px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 4px;
+    text-decoration: none;
+    outline: rgb(131, 155, 130) solid 3px;
+}
