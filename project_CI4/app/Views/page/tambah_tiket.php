@@ -5,6 +5,7 @@
     <div class="row">
         <div class="col">
             <form action="/pages/save" method="POST" class="formisi">
+
                 <table class="table2">
                     <tr>
                         <td><label for="nomorid">Nomor ID</label></td>
@@ -134,8 +135,7 @@
                     Harap memasukkan Nomor ID dengan teliti. Dikarenakan Nomor ID tidak dapat diubah jika terdapat kesalahan
                 </p>
                 <hr>
-                <button type="submit" name="submit" onclick=" return confirm('Yakin data yang dimasukkan sudah benar?')"
-                id="hpbtn">Submit</button> |
+                <button type="submit" name="submit" onclick=" return confirm('Yakin data yang dimasukkan sudah benar?')" id="hpbtn">Submit</button> |
                 <a href="/daftar_tiket" id="mpbtn">Cancel</a>
             </form>
         </div>

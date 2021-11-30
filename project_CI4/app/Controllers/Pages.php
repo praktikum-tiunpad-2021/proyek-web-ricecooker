@@ -79,11 +79,14 @@ class Pages extends BaseController
             'kode_maskapai' => $this->request->getPost('kode_maskapai'),
             'nomor_kursi' => $this->request->getPost('nomor_kursi'),
             'jamterbang' => $this->request->getPost('jamterbang'),
-            'nomor_rute' => $this->request->getPost('nomor_rute')
+            'nomor_rute' => $this->request->getPost('nomor_rute'),
         );
+
+
 
         $this->tampilkan_data->tambah_tiket($data);
         $this->tampilkan_data->tambah_tiket2($data2);
+        $this->tampilkan_data->insert_into();
 
         return redirect()->to('pages/daftar_tiket');
     }
