@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\UserModel;
+
 class Pages extends BaseController
 {
     protected $tampilkan_data;
@@ -65,6 +67,8 @@ class Pages extends BaseController
 
     public function save()
     {
+
+
         $data = array(
             'nomor_id' => $this->request->getPost('nomor_id'),
             'nama_penumpang' => $this->request->getPost('nama_penumpang'),
@@ -80,13 +84,14 @@ class Pages extends BaseController
             'nomor_kursi' => $this->request->getPost('nomor_kursi'),
             'jamterbang' => $this->request->getPost('jamterbang'),
             'nomor_rute' => $this->request->getPost('nomor_rute'),
+            'email' => session()->get('email')
         );
 
 
 
         $this->tampilkan_data->tambah_tiket($data);
         $this->tampilkan_data->tambah_tiket2($data2);
-        $this->tampilkan_data->insert_into();
+
 
         return redirect()->to('pages/daftar_tiket');
     }

@@ -32,6 +32,7 @@ class Filters extends BaseConfig
         'before' => [
             // 'honeypot',
             // 'csrf',
+
         ],
         'after' => [
             'toolbar',

@@ -15,8 +15,7 @@ class tiketModel extends Model
             ->join('penumpang', 'tiket.nomor_id = penumpang.nomor_id')
             ->join('rute', 'tiket.nomor_rute = rute.nomor_rute')
             ->join('maskapai', 'tiket.kode_maskapai = maskapai.kode_maskapai')
-            ->join('user', 'tiket.token = user.token')
-            ->where('user.token = tiket.token')
+            ->where('email', session()->get('email'))
             ->get()->getResultArray();
     }
 
@@ -30,11 +29,7 @@ class tiketModel extends Model
         $this->db->table('tiket')->insert($data);
     }
 
-    function insert_into()
-    {
-        $data = $this->db->table('user')->select('token');
-        $this->db->table('tiket')->set($data);
-    }
+
 
     function hapus_tiket($data)
     {
