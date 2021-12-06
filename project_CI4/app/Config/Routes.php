@@ -34,13 +34,12 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Login::index');
 $routes->get('logout', 'Login::logout');
 $routes->match(['get', 'post'], 'register', 'Login::register');
-$routes->get('dashboard', 'Dashboard::index', ['filter' => 'auth']);
-$routes->get('/home', 'Pages::index');
-$routes->get('/about', 'Pages::about');
-$routes->get('/contact', 'Pages::contact');
-$routes->get('/daftar_tiket', 'Pages::daftar_tiket');
-$routes->get('/tambah_tiket', 'Pages::tambah_tiket');
-$routes->get('/hapus_tiket', 'Pages::hapus_tiket');
+$routes->get('/home', 'Pages::index', ['filter' => 'auth']);
+$routes->get('/about', 'Pages::about', ['filter' => 'auth']);
+$routes->get('/contact', 'Pages::contact', ['filter' => 'auth']);
+$routes->get('/daftar_tiket', 'Pages::daftar_tiket', ['filter' => 'auth']);
+$routes->get('/tambah_tiket', 'Pages::tambah_tiket', ['filter' => 'auth']);
+$routes->get('/hapus_tiket', 'Pages::hapus_tiket', ['filter' => 'auth']);
 
 /*
  * --------------------------------------------------------------------

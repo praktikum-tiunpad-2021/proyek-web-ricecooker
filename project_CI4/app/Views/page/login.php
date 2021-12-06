@@ -22,7 +22,7 @@
               <?= session()->get('success') ?>
             </div>
           <?php endif; ?>
-          <form action="/" method="post">
+          <form action="" method="post">
             <div class="form-group">
               <label for="email">Email Address</label>
               <input type="text" class="form-control" name="email" id="email" value="<?= set_value('email') ?>">
