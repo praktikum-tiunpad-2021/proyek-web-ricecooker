@@ -9,9 +9,9 @@
   <title>Login</title>
 </head>
 
-<body>
+<body class="bodyLogin">
   <div class="headLogin">
-      <h3>Login</h3>
+    <h3>Login</h3>
   </div>
 
   <form action="" method="post">
@@ -55,7 +55,8 @@
     </table>
 
   </form>
-
+  <div id="footer">Proudly Powered By RiceCooker.
+  </div>
 </body>
 
 </html>

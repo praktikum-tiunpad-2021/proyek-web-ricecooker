@@ -1,5 +1,27 @@
-body {  
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+.bodyLogin {
+    font-family: 'Helvetica Neue';
+
+}
+
+.bodyTemplate {
+    font-family: 'Helvetica Neue';
+    min-height: 90vh;
+    position: relative;
+
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+
 }
 
 nav {
@@ -14,11 +36,11 @@ nav {
     width: 100%;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 }
-  
+
 li {
     float: left;
 }
-  
+
 li a {
     display: block;
     color: white;
@@ -26,7 +48,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-  
+
 li a:hover {
     background-color: white;
     color: #5c7fb8;
@@ -34,7 +56,7 @@ li a:hover {
 
 .active {
     background-color: white;
-    color:#5c7fb8;
+    color: #5c7fb8;
 }
 
 .headLogin {
@@ -61,7 +83,8 @@ li a:hover {
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 }
 
-.table1>thead>tr>th, .table1>tbody>tr>td {
+.table1>thead>tr>th,
+.table1>tbody>tr>td {
     border: 1px solid #d1d1d1;
     border-collapse: collapse;
     padding: 8px;

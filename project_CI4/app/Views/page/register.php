@@ -11,7 +11,7 @@
 
 <body>
   <div class="headLogin">
-      <h3>Register</h3>
+    <h3>Register</h3>
   </div>
 
   <form action="/register" method="post">
@@ -41,17 +41,18 @@
     <table style="margin-left:auto; margin-right:auto; text-align:left; width:250px;">
       <tr>
         <td>
-        <?php if (isset($validation)) : ?>
-          <div>
-            <?= $validation->listErrors() ?>
-          </div>
-        <?php endif; ?>
+          <?php if (isset($validation)) : ?>
+            <div>
+              <?= $validation->listErrors() ?>
+            </div>
+          <?php endif; ?>
         </td>
       </tr>
     </table>
 
-    </form>
-
+  </form>
+  <div id="footer">Proudly Powered By RiceCooker.
+  </div>
 </body>
 
 </html>
