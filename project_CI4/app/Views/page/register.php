@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="/css/style.css">
 
 <head>
   <meta charset="UTF-8">
@@ -10,12 +11,13 @@
 </head>
 
 <body>
+  <div class="headLogin">
+      <h3>Register</h3>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-white form-wrapper">
         <div class="container">
-          <h3>Register</h3>
-          <hr>
           <form action="/register" method="post">
             <div class="row">
               <div class="col-12">
@@ -46,7 +48,7 @@
             </div>
             <div class="row">
               <div class="col-12 col-sm-4">
-                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="submit" id="signaturebtn">Register</button>
               </div>
               <div class="col-12 col-sm-8 text-right">
                 <a href="/">Already Have an Account</a>
