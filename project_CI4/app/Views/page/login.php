@@ -6,8 +6,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
   <title>Login</title>
 </head>
 
@@ -16,50 +14,48 @@
       <h3>Login</h3>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3">
-        <div class="container">
+  <form action="" method="post">
+    <table class="tableLogin">
+      <tr>
+        <td colspan="2"><label for="email">Email Address</label></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="text" class="textLogin" name="email" id="email" value="<?= set_value('email') ?>"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><label for="password">Password</label></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="password" name="password" id="password" class="textLogin" value=""></td>
+      </tr>
+      <tr>
+        <td style="text-align:left;"><button type="submit" id="signaturebtn" style="font-size:18px;">Login</button></td>
+        <td style="text-align:right;"><a href="/register" class="link">Don't have an account yet?</a></td>
+      </tr>
+    </table>
+
+    <br>
+
+    <table style="margin-left:auto; margin-right:auto; text-align:left; width:250px;">
+      <tr>
+        <td>
           <?php if (session()->get('success')) : ?>
-            <div class="alert alert-success" role="alert">
+            <div>
               <?= session()->get('success') ?>
             </div>
           <?php endif; ?>
-          <form action="" method="post">
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="text" class="form-control" name="email" id="email" value="<?= set_value('email') ?>">
-            </div>
-            <div class="form-group">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" class="form-control" value="">
-            </div>
-            <div class ="row">
-            <div class="col-12 col-sm-8">
-            <?php if (isset($validation)) : ?>
-                <div class="alert alert-danger" role="alert">
-                  <?= $validation->listErrors() ?>
-                </div>
-            <?php endif; ?>
-            </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-4">
-                <button type="submit" id="signaturebtn">Login</button>
-              </div>
-              <div class="col-12 col-sm-8 text-right">
-                <a href="/register">Don't have an account yet?</a>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <?php if (isset($validation)) : ?>
+            <div>
+              <?= $validation->listErrors() ?>
+            </div>
+          <?php endif; ?>
+        </td>
+      </tr>
+    </table>
+
+  </form>
+
 </body>
 
 </html>
